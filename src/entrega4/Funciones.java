@@ -10,7 +10,7 @@ public class Funciones {
        }
        
        Integer producto = 1;
-       for (Integer i = 0; i < k; i++) {
+       for (Integer i = 0; i < n; i++) {
             producto = producto * (n - i + 1);
        }
        return producto;
